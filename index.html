@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overcooked</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ac0e5f4852.js"
+      crossorigin="anonymous"></script>
+      
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body >
+    <!-- Header -->
+    <header class="site-header">
+      <a href="index.html"><h1>Overcooked</h1></a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#">Log-in</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="aboutme.html">About me</a></li>
+        </ul>
+      </nav>
+      <div class="menuDropdown">
+        <button onclick="menuDropdown()" class="burger-icon dropbtn"><i class="fa-solid fa-bars dropbtn"></i></button>
+        <div id="myDropdownMenu" class="dropdown-content">
+          <a href="#">Log-in</a>
+          <a href="recipes.html">Recipes</a>
+          <a href="products.html">Products</a>
+          <a href="aboutme.html">About me</a>
+        </div>
+      </div>
+      
+    </header>
+
+    <main>
+      <!-- Image Carousel -->
+      <section class="image-carousel">
+        <div class="slides">
+          <img src="./img/1beans.png" alt="beans" />
+          <img src="./img/3hotdog.png" alt="hotdog" />
+          <img src="./img/10cakes.png" alt="cakes" />
+          <img src="./img/11pizza.png" alt="pizza" />
+            <img src="./img/9cookies.png" alt="cookies" />
+          <img src="./img/6salatka.png" alt="salad" />
+          <img src="./img/2coffee.png" alt="coffee" />
+          <img src="./img/1beans.png" alt="beans" />
+          <img src="./img/3hotdog.png" alt="hotdog" />
+        </div>
+      </section>
+
+      <!-- Promo Content -->
+      <section class="promo-content">
+        <div class="promo-image">
+          <img src="./img/eating1.jpg" alt="Couple eating spaghetti" />
+        </div>
+        <div class="promo-text">
+          <h3>
+            Good 4
+            <br />
+            every occasion
+          </h3>
+        </div>
+        <div class="promo-image">
+          <img src="./img/eating2.jpg" alt="Man eating chicken" />
+        </div>
+        <div class="promo-image">
+          <img src="./img/eating3.webp" alt="Spaghetti monster" />
+        </div>
+      </section>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-bar">
+          <img class="hero-utensils" src="./img/utensils.png" alt="Utensils" />
+          <div class="hero-content">
+            <p>
+              With this site, you're about to embark on the most unexpected and
+              incredible culinary journey, one that will leave your taste buds
+              in absolute awe. Get ready for flavors that surprise, delight, and
+              redefine your dining experience!
+            </p>
+            <h2>Are you ready?</h2>
+          </div>
+          <div class="background"></div>
+        </div>
+        
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="testimonial-item">
+          <blockquote>
+            This recipe is pure comfort in a bowl! The rich, velvety sauce with
+            a perfect balance of garlic and parmesan makes every bite
+            irresistible.
+          </blockquote>
+          <img
+            class="testimonial-image"
+            src="./img/profile1.jpg"
+            alt="Reviewer 1" />
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <blockquote>
+            A perfect mix of sweet and spicy! The crispy, caramelized glaze adds
+            an amazing depth of flavor that will keep you coming back for more.
+          </blockquote>
+          <img
+            class="testimonial-image"
+            src="./img/profile3.jpg"
+            alt="Reviewer 2" />
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <blockquote>
+            Simply heavenly! The gooey, molten center melts in your mouth,
+            making this dessert a true chocolate lover’s dream.
+          </blockquote>
+          <img
+            class="testimonial-image"
+            src="./img/profile4.jpg"
+            alt="Reviewer 3" />
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Partners Section -->
+      <section class="partners">
+        <div class="partner">
+          <img src="./img/logo1-removebg-preview.png" alt="Coca-Cola" />
+        </div>
+        <div class="partner"><img src="./img/logo5.webp" alt="TaxiFood" /></div>
+        <div class="partner">
+          <img src="./img/logo2-removebg-preview.png" alt="Burger King" />
+        </div>
+        <div class="partner">
+          <img src="./img/logo3-removebg-preview.png" alt="KFC" />
+        </div>
+        <div class="partner">
+          <img src="./img/logo4-removebg-preview.png" alt="Grab" />
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Overcooked, Inc</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="user.js"></script>
+  </body>
+</html>
